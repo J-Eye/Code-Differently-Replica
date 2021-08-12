@@ -1,0 +1,26 @@
+body{
+    background-color: lightgray;
+}
+#nav-bar{
+    background-color: white;
+    position:fixed;
+    top:0;
+    width:100%;
+    padding-top: 10px;
+    margin-left: -8px;
+    display:inline;
+}
+.nav-text{
+    display:inline;
+    position: absolute;
+}
+.nav-text li{  
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display:inline;
+}
+#logo{
+    width:20%;
+    height:30%;
+}
