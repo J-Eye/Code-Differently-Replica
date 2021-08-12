@@ -1,0 +1,33 @@
+.headingone {
+    margin-left: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.heading {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+.bdy {
+    color: gray;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+
+}
+
+.buttton {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-width: thin;
+    margin-left: 30px;
+
+}
