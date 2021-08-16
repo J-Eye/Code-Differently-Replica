@@ -49,3 +49,27 @@ body{
 #logo{
     width:200px
 }
+/*For this H2 tag need to edit margin most likely when merging*/
+#floatingBox{
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow:black;
+    text-align: center;
+    width:70%;
+    box-shadow: 10px 10px 8px #888888;
+}
+#Involved{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.thickUnderline{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+}
+#partnerLearnDonate{
+    display:flex;
+}
