@@ -1,3 +1,4 @@
+/*Jaden*/
 body{
     background-color: lightgray;
 }
@@ -101,12 +102,14 @@ body{
     padding-top: -20px;
     padding-bottom: -20px;
 }
-.img{
+/*Jaden*/
+/*Adian*/
+.img{    
     position:absolute;
     z-index: -1;
     width: 100%;
 }
-h1{
+.aidansDumbH1{
     color: white;
 }
 .first{
@@ -146,3 +149,5 @@ width: 100px;
     word-wrap: break-word;
     width: 50%;
 }
+/*Adian*/
+/*temporary fix*/
