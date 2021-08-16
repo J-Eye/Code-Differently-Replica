@@ -101,3 +101,48 @@ body{
     padding-top: -20px;
     padding-bottom: -20px;
 }
+.img{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+}
+h1{
+    color: white;
+}
+.first{
+    background-color: #243e90;
+    color: white;
+    padding: 50px;
+    width: 300px;
+    float: left;
+}
+
+#cd {
+    color: #e9792a;
+    font-weight: bold;
+}
+
+.ourA{
+    background-color: #243e90;
+    margin-top: 500px;
+    padding: 100px;
+    color: white;
+}
+
+.oa{
+    width: 1000px;
+}
+
+.attraction{
+width: 100px;
+}
+
+#oa{
+    color: #e9792a;
+    font-size: 13px;
+}
+#at{
+    color: black;
+    word-wrap: break-word;
+    width: 50%;
+}
