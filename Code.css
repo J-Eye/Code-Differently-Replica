@@ -1,13 +1,45 @@
-body{
-    background-image: url(https://cdn.discordapp.com/attachments/480573007975284747/875449423419809822/20210812_114308.jpg);
+img{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
 }
-
-p{
+h1{
+    color: white;
+}
+.first{
     background-color: #243e90;
     color: white;
-    margin: ;
+    padding: 50px;
+    width: 300px;
+    float: left;
 }
+
 #cd {
     color: #e9792a;
     font-weight: bold;
+}
+
+.ourA{
+    background-color: #243e90;
+    margin-top: 500px;
+    padding: 100px;
+    color: white;
+}
+
+.oa{
+    width: 1000px;
+}
+
+.attraction{
+
+}
+
+#oa{
+    color: #e9792a;
+    font-size: 13px;
+}
+#at{
+    color: lightgray;
+    word-wrap: break-word;
+    width: 50%;
 }
