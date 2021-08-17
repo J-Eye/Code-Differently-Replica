@@ -1,6 +1,8 @@
 /*Jaden*/
 body{
     background-color: lightgray;
+    padding: 0px;
+    margin:0px;
 }
 #nav-bar{
     background-color: white;
@@ -10,6 +12,7 @@ body{
     padding: 10px;
     margin-left: -8px;
     display:inline;
+    z-index: +1;
 }
 .nav-text{
     display:inline;
@@ -104,20 +107,25 @@ body{
 }
 /*Jaden*/
 /*Adian*/
+#imgPlace{
+    position:relative;
+}
 .img{    
-    position:absolute;
-    z-index: -1;
     width: 100%;
+    z-index: 0;
 }
 .aidansDumbH1{
     color: white;
+    position: absolute;
+    top:250px;
 }
 .first{
     background-color: #243e90;
     color: white;
     padding: 50px;
     width: 300px;
-    float: left;
+    position: absolute;
+    top:350px;
 }
 
 #cd {
@@ -150,4 +158,33 @@ width: 100px;
     width: 50%;
 }
 /*Adian*/
-/*temporary fix*/
+/*Layla*/
+.headingone {
+    margin-left: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.heading {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+.bdy {
+    color: gray;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+
+}
+.buttton {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-width: thin;
+    margin-left: 30px;
+
+}
