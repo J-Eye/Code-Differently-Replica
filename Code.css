@@ -105,6 +105,21 @@ body{
     padding-top: -20px;
     padding-bottom: -20px;
 }
+#Below{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+#Companies{
+    display:flex;
+    justify-content: space-around;
+    width:70%;
+    margin: auto;
+}
+.ComapaniesLogo{
+    width: 100px;
+}
 /*Jaden*/
 /*Adian*/
 #imgPlace{
@@ -164,20 +179,17 @@ width: 100px;
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    
 }
 .heading {
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin-left: 30px;
-
 }
 .bdy {
     color: gray;
     font-family: Arial, sans-serif;
     margin-left: 30px;
-
 }
 .buttton {
     color: black;
@@ -186,5 +198,5 @@ width: 100px;
     padding: 12px 18px;
     border-width: thin;
     margin-left: 30px;
-
 }
+/*Layla*/
