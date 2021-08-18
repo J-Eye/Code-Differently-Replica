@@ -1,6 +1,5 @@
 /*Jaden*/
 body{
-    background-color: lightgray;
     padding: 0px;
     margin:0px;
 }
@@ -13,6 +12,8 @@ body{
     margin-left: -8px;
     display:inline;
     z-index: +1;
+    box-shadow:black;
+    box-shadow: 10px 5px 10px #e4e4e4;
 }
 .nav-text{
     display:inline;
@@ -182,16 +183,19 @@ footer{
 .aidansDumbH1{
     color: white;
     position: absolute;
-    top:250px;  
-    font-size: 30px;
+    top:200px;  
+    font-size: 50px;
     word-wrap: break-word;
+    margin-left: 100px;
+    width:40%;
+    font-weight: bolder;
 
 }
 .first{
     background-color: #243e90;
     color: white;
-    padding: 10px;
-    width: 500px;
+    padding: 10px 10px 10px 100px;
+    width: 50%;
     position: absolute;
     top:350px;
     font-size: 20px;
@@ -204,29 +208,33 @@ footer{
 .ourA{
     background-color: #243e90;
     margin-top: 100px;
-    padding: 20px;
     color: white;
     font-size: 30px;
     font-weight: bold;
+    height:100%;
 }
 
 .oa{
-    width: 1000px;
+    margin: 30px auto -10px;
+    width: 95%;
 }
 
 #attraction{
-    display: flex;
-    justify-content: space-around;
-width: 100%;
-padding-left: 100px;
-background-color: #243e90;
+display: flex;
+justify-content: flex-start;
+width: 95%;
 color: white;
 flex-wrap: wrap;
+margin:auto;
 }
-
+#attractionBG{
+    background-color: #243e90;
+    height: 600px;
+}
 .ourA{
     float: left ;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 #oa{
     color: #e9792a;
@@ -235,16 +243,24 @@ flex-wrap: wrap;
 }
 
 .ourContent{
-    width: 33%;
+    width: 23%;
+    padding-right: 10%;
 }
 
 .oa2{
-    width: 500px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 95%;
+}
+.ourHead{
+    font-size: 20px;
+    font-weight: bold;
 }
 /*Adian*/
 /*Layla*/
 .headingone {
-    margin-left: 30px;
+    width: 70%;
+    margin: auto;
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -253,19 +269,60 @@ flex-wrap: wrap;
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    margin-left: 30px;
 }
 .bdy {
     color: gray;
     font-family: Arial, sans-serif;
-    margin-left: 30px;
 }
-.buttton {
+.buttonPro{
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
     padding: 12px 18px;
     border-width: thin;
-    margin-left: 30px;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#ourFlex{
+    width:70%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourFlexContent{
+    width: 50%;
+}
+.buttonPro:hover{
+    background-color:#e9792a;
+    box-shadow:black;
+    box-shadow: 10px 10px 8px #888888;
+    border-color: #e9792a;
 }
 /*Layla*/
+/*jordan*/
+.whyboxes {
+    border-style: solid;
+    border-color: orange;
+    border-radius: 5px;
+    width:15%;
+    height: 450px;
+    vertical-align: text-top;
+    text-align: center;
+}
+#whycontainer {
+    display:flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+.whyhead {
+    font-size: 40px;
+    width: 70%;
+    margin: auto;
+}
+#whycodedifferently {
+    width: 70%;
+    margin: auto;
+}

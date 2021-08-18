@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Differently</title>
     <link rel="stylesheet" href="Code.css">
     <!--Font Awesome script-->
     <script src="https://kit.fontawesome.com/d245054d72.js" crossorigin="anonymous"></script>
@@ -12,14 +12,14 @@
 <body>
 <!--Jaden-->
 <div id="nav-bar">
-    <img src="Code-Differently-logo-2020-2.png" id="logo">
+    <a href="Code.html"><img src="Code-Differently-logo-2020-2.png" id="logo"></a>
     <ul class="nav-text">
-        <li class="nav-static">Home</li>
-        <li class="nav-normal">Return Ready</li>  
-        <li class="nav-normal">Why Code Differntly</li>
-        <li class="nav-normal">Our Approach</li>
-        <li class="nav-normal">Get Involved</li>
-        <li class="nav-normal">Career Opportunities</li>
+        <li class="nav-static" id="Home">Home</li>
+        <a href = "https://codedifferently.com/return-ready/"><li class="nav-normal">Return Ready</li></a>
+        <li class="nav-normal" id="WhyCode">Why Code Differntly</li>
+        <li class="nav-normal" id="OurApproach">Our Approach</li>
+        <li class="nav-normal" id="GetInvolved">Get Involved</li>
+        <li class="nav-normal" id="CareerOppor">Career Opportunities</li>
         <li id="contact">Contact Us</li>
     </ul>
 </div>
@@ -34,59 +34,72 @@
 </div>
 <!--Aidan-->
 <!--Layla-->
-<h1 class="headingone">Our Programs</h1>   
-    <h3 class="heading">1000 Kids Coding</h3>
-    <p class="bdy">The Code Differently 1000 Kids Coding program was created to <br> expose New Castle County students to computing and <br> programming. The 1000 Kids Coding courses are designed for all <br> experience levels, no experience required.</p>
-    <button class="buttton">Info</button>
-
-    <h3 class="heading">Pipeline DevShops</h3>
-    <p class="bdy">Pipeline DevShop is a youth work-based learning program. Youth <br> participants experience working in a real software development <br>environment while sharpening their technology and soft skills.</p>
-    <button class="buttton">Support Us</button>
+<h1 class="headingone">Our <span class="thickUnderline">Programs</span></h1>   
+    <div id="ourFlex">
+        <div class="ourFlexContent">
+            <h3 class="heading">1000 Kids Coding</h3>
+            <p class="bdy">The Code Differently 1000 Kids Coding program was created to <br> expose New Castle County students to computing and <br> programming. The 1000 Kids Coding courses are designed for all <br> experience levels, no experience required.</p>
+            <button class="buttonPro">Info</button>
+        </div>
+        <div class="ourFlexContent">
+            <h3 class="heading">Return Ready</h3>
+            <p class="bdy">The Return Ready Workforce Training Initiative is funded by New Castle County CARES Grant to assist residents of New Castle County with returning to work with technology skills needed for today’s technology-driven workforce.</p>
+            <button class="buttonPro">Info</button>
+            <button class="buttonPro">FAQ</button>
+            <button class="buttonPro">Register</button>
+        </div>
+        <div class="ourFlexContent">
+            <h3 class="heading">Pipeline DevShops</h3>
+            <p class="bdy">Pipeline DevShop is a youth work-based learning program. Youth <br> participants experience working in a real software development <br>environment while sharpening their technology and soft skills.</p>
+            <button class="buttonPro">Support Us</button>
+        </div>
+        <div class="ourFlexContent">
+            <h3 class="heading">Platform Programs</h3>
+            <p class="bdy">Platform programs are designed for high school graduates, college students, career changers, or professionals looking to develop the technology job readiness skills for today’s workforce.</p>
+            <button class="buttonPro">Learn More</button>
+        </div>
+    </div>
 <!--Layla-->
 <!--Jordan-->
-<h1>Why Code Differently?</h1>
-    <table style="width:100%">
+<h1 id="whycodedifferently">Why Code Differently?</h1>
+<table id="whycontainer">
     <tr>
-        <td> 75% of our high school participants will continue their education or career in technology related fields. </td>
-        <td> 95% of our college particpants recieved offers for internships or full-time employment in technology organizations.</td>
-    
-    
-        <td>96% of our program participants identity as ethnically underrespresented.</td>
-        <td> 41% of our participants are women.</td>   
+        <td class="whyboxes"> <span class="whyhead">75%</span><br> of our high school participants will continue their education or career in technology related fields. </td>
+        <td class="whyboxes"> <span class="whyhead">95%</span><br> of our college particpants recieved offers for internships or full-time employment in technology organizations.</td>
+        <td class="whyboxes"><span class="whyhead">96%</span> <br> of our program participants identity as ethnically underrespresented.</td>
+        <td class="whyboxes"> <span class="whyhead">41%</span> <br>of our participants are women.</td>
     </tr>
 </table>
 <!--Jordan-->
 <!--Aidan-->
 <div class="ourA">
-    <p class="oa">
-        <span id="oa"> Our Apprach</span><br><br>
-    </p> <p class="oa2">
-        We designed each program on the foundation of five strategic pillars:
-    </p>
+    <p class="oa"><span id="oa"> Our Approach</span><br><br></p> 
+    <p class="oa2">We designed each program on the foundation of five strategic pillars:</p>
 </div>
-
-<div id="attraction">
-    <div class="ourContent">
-        <i class="fas fa-magnet ourA"></i>
-            <p><span>Attraction:</span><br><span>We employ innovative initiatives to spark participants' curiosity about the tech industry.</span></p>
-    </div>
-    <div class="ourContent">
-        <i class="fas fa-sun ourA"></i>
-        <p><span>Exposure</span><br><span>We expose participant to the amazing world of technology and coding.</span></p>
-    </div>
-    <div class="ourContent">
-        <i class="fas fa-tv ourA"></i>
-        <p><span>Engagement</span><br><span>We keep participants engaged by fostering more in-depth learning of principles and concepts.</span></p>
-    </div>
-    <div class="ourContent">
-        <i class="fas fa-dollar-sign ourA"></i>
-        <p><span>Ownership</span><br><span>We help participants develop a sense of ownership of their new skill set by providing opportunities for them to develop real technology solutions.
-        </span></p>
-    </div>
-    <div class="ourContent">
-        <i class="fas fa-question ourA"></i>
-        <p><span>Empowerment</span><br><span>We empower participants to inspire others to explore tech careers.
-        </span></p>
+<div id="attractionBG">
+    <div id="attraction">
+        <div class="ourContent">
+            <i class="fas fa-magnet ourA"></i>
+                <p><span class="ourHead">Attraction:</span><br><span>We employ innovative initiatives to spark participants' curiosity about the tech industry.</span></p>
+        </div>
+        <div class="ourContent">
+            <i class="fas fa-sun ourA"></i>
+            <p><span class="ourHead">Exposure:</span><br><span>We expose participant to the amazing world of technology and coding.</span></p>
+        </div>
+        <div class="ourContent">
+            <i class="fas fa-tv ourA"></i>
+            <p><span class="ourHead">Engagement:</span><br><span>We keep participants engaged by fostering more in-depth learning of principles and concepts.</span></p>
+        </div>
+        <div class="ourContent">
+            <i class="fas fa-dollar-sign ourA"></i>
+            <p><span class="ourHead">Ownership:</span><br><span>We help participants develop a sense of ownership of their new skill set by providing opportunities for them to develop real technology solutions.
+            </span></p>
+        </div>
+        <div class="ourContent">
+            <i class="fas fa-dumbbell ourA"></i>
+            <p><span class="ourHead">Empowerment:</span><br><span>We empower participants to inspire others to explore tech careers.
+            </span></p>
+        </div>
     </div>
 </div>
 <!--Aidan-->
