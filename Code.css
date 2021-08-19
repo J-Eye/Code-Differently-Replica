@@ -57,12 +57,12 @@ body{
 /*For this H2 tag need to edit margin most likely when merging*/
 #floatingBox{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 20px;
     background-color: white;
     box-shadow:black;
     text-align: center;
     width:70%;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 5px 8px 10px 10px #888888;
 }
 #Involved{
     margin: auto;
@@ -170,6 +170,10 @@ footer{
     text-align: center;
     bottom:0;
     margin: 50px auto;
+}
+a, a:visited, a:hover, a:active{
+    text-decoration: inherit;
+    color: inherit;
 }
 /*Jaden*/
 /*Adian*/
@@ -286,7 +290,7 @@ margin:auto;
 }
 #ourFlex{
     width:70%;
-    margin:auto;
+    margin:50px auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -305,17 +309,23 @@ margin:auto;
     border-style: solid;
     border-color: orange;
     border-radius: 5px;
-    width:15%;
-    height: 450px;
+    width:800px;
+    height: 350px;
     vertical-align: text-top;
     text-align: center;
+    word-spacing: 5px;
+    font-size: large;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1.5px;
 }
 #whycontainer {
     display:flex;
     justify-content: space-around;
     height: 500px;
-    width: 70%;
+    width: 90%;
     margin: auto;
+    border-spacing: 60px;
 }
 .whyhead {
     font-size: 40px;
@@ -325,4 +335,5 @@ margin:auto;
 #whycodedifferently {
     width: 70%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
